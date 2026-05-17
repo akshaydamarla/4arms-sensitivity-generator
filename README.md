@@ -1,16 +1,65 @@
-# React + Vite
+# 🔥 4ARMS Sensitivity Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Free Fire sensitivity generator built with React + Vite that generates optimized sensitivity settings dynamically based on the user's device, performance tier, and sleeve usage.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[4ARMS Sensitivity Generator]
 
-## React Compiler
+4arms.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📱 Android & iPhone device support
+- 🔍 Searchable device selector
+- 🎯 Dynamic sensitivity generation
+- 🧤 Sleeve / No Sleeve optimization
+- ⚡ Device-aware calculations
+- 💎 Modern gaming UI
+- 🌈 Smooth animations with Framer Motion
+- 📋 Copy sensitivity button
+- 🖥️ Fully responsive for mobile & desktop
+- 🔥 Glassmorphism gaming design
+
+---
+
+# 🧠 How It Works
+
+The sensitivity engine dynamically calculates values using:
+
+- Device performance tier
+- Touch responsiveness
+- FPS smoothness
+- Display size
+- Sleeve friction adjustments
+
+This allows every device to generate unique and more realistic sensitivity values instead of static presets.
+
+---
+
+# 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Select
+- React Icons
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+ ├── data/
+ │    ├── devices.js
+ │
+ ├── utils/
+ │    ├── generateSensitivity.js
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
