@@ -549,6 +549,23 @@ Sniper: ${result.sniper}
                   <span>Sniper</span>
                   <span>{result.sniper}</span>
                 </div>
+                <div className="
+  mt-6
+  p-4
+  rounded-2xl
+  bg-yellow-500/10
+  border border-yellow-500/20
+  text-yellow-300
+  text-sm
+  lg:text-base
+  leading-relaxed
+">
+  ⚠️ Practice with this sensitivity for at least 
+  <span className="font-bold text-yellow-200">
+    {" "}3 weeks{" "}
+  </span>
+  before changing it again. Consistent gameplay and muscle memory are important for getting the best headshot results 🎯
+</div>
 
               </div>
             </motion.div>
