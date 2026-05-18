@@ -440,6 +440,21 @@ const devices = {
         displaySize: 6,
       },
     },
+    Infinix: {
+      "GT 30 Pro": {
+        tier: "flagship",
+        touch: 8,
+        smoothness: 8,
+        displaySize: 7,
+      },
+
+      "GT 30": {
+        tier: "midrange",
+        touch: 7,
+        smoothness: 7,
+        displaySize: 6,
+      },
+    },
   },
 
   apple: {
