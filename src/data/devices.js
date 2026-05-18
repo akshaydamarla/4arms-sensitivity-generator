@@ -257,6 +257,13 @@ const devices = {
         displaySize: 6,
       },
 
+      "POCO F25 Pro": {
+        tier: "flagship",
+        touch: 8,
+        smoothness: 8,
+        displaySize: 7,
+      },
+
       "POCO X3": {
         tier: "lowend",
         touch: 5,
@@ -375,6 +382,20 @@ const devices = {
         displaySize: 7,
       },
 
+      "GT 30 5G": {
+        tier: "flagship",
+        touch: 9,
+        smoothness: 9,
+        displaySize: 7,
+      },
+
+      "Realme 13 5G": {
+        tier: "midrange",
+        touch: 6,
+        smoothness: 6,
+        displaySize: 6,
+      },
+
       "Realme 13 Pro": {
         tier: "midrange",
         touch: 7,
@@ -400,6 +421,22 @@ const devices = {
         tier: "lowend",
         touch: 4,
         smoothness: 4,
+        displaySize: 6,
+      },
+    },
+
+    Vivo: {
+      "Vivo V30": {
+        tier: "midrange",
+        touch: 7,
+        smoothness: 7,
+        displaySize: 6,
+      },
+
+      "Vivo T3x": {
+        tier: "midrange",
+        touch: 6,
+        smoothness: 6,
         displaySize: 6,
       },
     },
@@ -653,6 +690,22 @@ const devices = {
 },
 
 "iPhone 8": {
+  Base: {
+    tier: "lowend",
+    touch: 4,
+    smoothness: 4,
+    displaySize: 5,
+  },
+
+  Plus: {
+    tier: "lowend",
+    touch: 5,
+    smoothness: 5,
+    displaySize: 6,
+  },
+},
+
+"iPhone 7": {
   Base: {
     tier: "lowend",
     touch: 4,
