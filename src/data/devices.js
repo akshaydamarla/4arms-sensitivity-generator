@@ -249,34 +249,6 @@ const devices = {
         smoothness: 5,
         displaySize: 6,
       },
-
-      "POCO X6": {
-        tier: "midrange",
-        touch: 7,
-        smoothness: 7,
-        displaySize: 6,
-      },
-
-      "POCO M2": {
-        tier: "lowend",
-        touch: 4,
-        smoothness: 4,
-        displaySize: 6,
-      },
-
-      "POCO X3": {
-        tier: "lowend",
-        touch: 5,
-        smoothness: 5,
-        displaySize: 6,
-      },
-
-      "Redmi 13C": {
-        tier: "lowend",
-        touch: 4,
-        smoothness: 4,
-        displaySize: 6,
-      },
     },
 
     Google: {
@@ -454,7 +426,9 @@ const devices = {
         smoothness: 7,
         displaySize: 6,
       },
-          POCO: {
+    },
+
+    POCO: {
       "POCO F6": {
         tier: "flagship",
         touch: 9,
@@ -526,7 +500,6 @@ const devices = {
         smoothness: 4,
         displaySize: 6,
       },
-    },
     },
   },
 
