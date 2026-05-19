@@ -257,11 +257,11 @@ const devices = {
         displaySize: 6,
       },
 
-      "POCO F25 Pro": {
-        tier: "flagship",
-        touch: 8,
-        smoothness: 8,
-        displaySize: 7,
+      "POCO M2": {
+        tier: "lowend",
+        touch: 4,
+        smoothness: 4,
+        displaySize: 6,
       },
 
       "POCO X3": {
