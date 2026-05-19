@@ -454,6 +454,79 @@ const devices = {
         smoothness: 7,
         displaySize: 6,
       },
+          POCO: {
+      "POCO F6": {
+        tier: "flagship",
+        touch: 9,
+        smoothness: 9,
+        displaySize: 7,
+      },
+
+      "POCO X6 Pro": {
+        tier: "flagship",
+        touch: 8,
+        smoothness: 8,
+        displaySize: 7,
+      },
+
+      "POCO X5 Pro": {
+        tier: "midrange",
+        touch: 7,
+        smoothness: 7,
+        displaySize: 6,
+      },
+
+      "POCO M6 Pro": {
+        tier: "midrange",
+        touch: 6,
+        smoothness: 6,
+        displaySize: 6,
+      },
+
+      "POCO M2": {
+        tier: "lowend",
+        touch: 4,
+        smoothness: 4,
+        displaySize: 6,
+      },
+    },
+
+    OPPO: {
+      "Find X8 Pro": {
+        tier: "flagship",
+        touch: 9,
+        smoothness: 9,
+        displaySize: 7,
+      },
+
+      "Reno 12 Pro": {
+        tier: "midrange",
+        touch: 7,
+        smoothness: 7,
+        displaySize: 6,
+      },
+
+      "Reno 11": {
+        tier: "midrange",
+        touch: 6,
+        smoothness: 6,
+        displaySize: 6,
+      },
+
+      "F27 Pro": {
+        tier: "midrange",
+        touch: 6,
+        smoothness: 6,
+        displaySize: 6,
+      },
+
+      "A79": {
+        tier: "lowend",
+        touch: 4,
+        smoothness: 4,
+        displaySize: 6,
+      },
+    },
     },
   },
 
